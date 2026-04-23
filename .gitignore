@@ -1,0 +1,14 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large model files so they don't get pushed to GitHub
+*.keras
+*.h5
+
+# Ignore virtual environments if you ever use one
+venv/
+env/
+
+# Ignore test files we created
+test_load.py
